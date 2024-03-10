@@ -2,12 +2,13 @@
 //
 
 #include <iostream>
-#include "Game.h"
+#include <Windows.h>
+#include "Game.h"   
 
 int main()
 {
     Game game;
-    game.initialize(20);
+    game.initialize(game.xb,game.yb,20,10);
 
     return 0;
 }

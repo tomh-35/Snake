@@ -3,9 +3,9 @@ class Game
 {
 public: 
 	int score;
-private:
-	int size;
+	int xb = 0;
+	int yb = 0;
 public:
-	void initialize(int);
+	void initialize(int,int,int,int);
 };
 
